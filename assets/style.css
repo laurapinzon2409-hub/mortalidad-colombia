@@ -1,0 +1,29 @@
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f3f6fa; color: #1f2937; }
+.contenedor { max-width: 1400px; margin: auto; }
+.encabezado { background: #17365d; color: white; padding: 24px 34px; }
+.encabezado h1 { margin: 0 0 8px; }
+.encabezado p { margin: 0; opacity: .9; }
+
+.barra { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; padding: 18px 24px; background: white; border-bottom: 1px solid #e3e9f2; }
+.filtro { min-width: 240px; flex: 1; }
+.filtro.ancho { flex: 2; min-width: 300px; padding-bottom: 14px; }
+.filtro label { display: block; font-size: 13px; font-weight: 600; color: #42506a; margin-bottom: 6px; }
+
+.nota { margin: 14px 24px 0; padding: 10px 14px; background: #eaf1fb; border-left: 4px solid #2f6db5; font-size: 13px; color: #33415c; border-radius: 4px; }
+.alerta { margin: 14px 24px 0; padding: 12px; background: #fff3cd; border-left: 4px solid #e0a800; }
+
+.tarjetas, .fila { display: flex; gap: 18px; padding: 18px 24px 0; }
+.tarjeta { flex: 1; background: white; padding: 18px; border-radius: 8px; box-shadow: 0 1px 5px #d9e2f3; }
+.tarjeta strong, .tarjeta span { display: block; }
+.tarjeta strong { font-size: 28px; color: #17365d; }
+.tarjeta span { margin-top: 6px; color: #596579; }
+
+.fila > div { flex: 1; min-width: 0; background: white; border-radius: 8px; box-shadow: 0 1px 5px #d9e2f3; }
+.tabla { margin: 18px 24px; background: white; padding: 18px; border-radius: 8px; box-shadow: 0 1px 5px #d9e2f3; }
+.tabla h2 { margin-top: 0; color: #17365d; font-size: 20px; }
+footer { padding: 24px; color: #596579; font-size: 13px; }
+
+@media (max-width: 900px) {
+  .fila, .tarjetas, .barra { flex-direction: column; align-items: stretch; }
+  .filtro, .filtro.ancho { min-width: 0; width: 100%; }
+}
