@@ -1,6 +1,6 @@
 # Dashboard de mortalidad en Colombia 2019
 
-**Integrantes:** _(escriba aquí los nombres completos del grupo)_
+**Integrantes:** _Laura Vanesa Pinzón Moncada, Jesus David Acero Rueda_
 **Aplicación en línea:** _(URL de Render)_
 
 ## Introducción del proyecto
