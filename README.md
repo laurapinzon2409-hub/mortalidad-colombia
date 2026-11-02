@@ -1,7 +1,7 @@
 # Dashboard de mortalidad en Colombia 2019
 
-**Integrantes:** _Laura Vanesa Pinzón Moncada, Jesus David Acero Rueda_
-**Aplicación en línea:** https://mortalidad-colombia-hugs.onrender.com/
+**Integrantes:** Laura Vanesa Pinzón Moncada, Jesus David Acero Rueda  
+**Aplicación en línea:** https://mortalidad-colombia-hugs.onrender.com/  
 **Repositorio:** https://github.com/laurapinzon2409-hub/mortalidad-colombia
 
 ## Introducción del proyecto
@@ -23,8 +23,7 @@ Facilitar la lectura visual de los datos de mortalidad para identificar patrones
 │   └── colombia_departamentos.geojson  # Polígonos de departamentos para el mapa
 ├── capturas/               # Capturas de pantalla usadas en este README
 ├── requirements.txt        # Dependencias
-├── Procfile                # Comando de inicio (gunicorn)
-└── render.yaml             # Configuración de despliegue en Render
+└── Procfile                # Comando de inicio (gunicorn)
 ```
 
 ## Requisitos
