@@ -1,7 +1,8 @@
 # Dashboard de mortalidad en Colombia 2019
 
 **Integrantes:** _Laura Vanesa Pinzón Moncada, Jesus David Acero Rueda_
-**Aplicación en línea:** _(URL de Render)_
+**Aplicación en línea:** https://mortalidad-colombia-hugs.onrender.com/
+**Repositorio:** https://github.com/laurapinzon2409-hub/mortalidad-colombia
 
 ## Introducción del proyecto
 Aplicación web dinámica hecha con Python, Dash y Plotly para explorar las **244.355 defunciones no fetales** registradas en Colombia en 2019 (DANE, Estadísticas Vitales EEVV). Permite ver la distribución territorial, la evolución mensual, las causas de muerte, las diferencias por sexo y la distribución por grupos de edad, con filtros por departamento, sexo y rango de meses.
@@ -41,8 +42,8 @@ Python, Dash (aplicación web), Plotly Express (gráficos), pandas (datos), open
 
 ## Instalación local
 ```bash
-git clone URL_DEL_REPOSITORIO
-cd NOMBRE_DEL_REPOSITORIO
+git clone https://github.com/laurapinzon2409-hub/mortalidad-colombia.git
+cd mortalidad-colombia
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 source .venv/bin/activate       # Linux/macOS
@@ -53,11 +54,11 @@ Abra http://127.0.0.1:8050. Si cambia los Excel de `data/`, regenere el cruce co
 
 ## Despliegue (Render)
 1. Suba el proyecto a un repositorio de GitHub (público).
-2. En https://render.com: **New → Web Service** y conecte el repositorio.
+2. En https://render.com: **New → Web Service** y conecte el repositorio `mortalidad-colombia`.
 3. Runtime: Python 3. **Build command:** `pip install -r requirements.txt`.
 4. **Start command:** `gunicorn app:server`.
 5. Plan **Free** y **Create Web Service**.
-6. Al terminar el build, abra la URL pública `https://<nombre>.onrender.com`.
+6. Al terminar el build, la app queda publicada en https://mortalidad-colombia-hugs.onrender.com/
 
 > En el plan gratuito la app se "duerme" tras unos minutos sin uso; la primera visita puede tardar ~1 minuto. Por eso la app lee un CSV de 3,5 MB en vez del Excel de 19 MB (que consumiría demasiada memoria).
 
